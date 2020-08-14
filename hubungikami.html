@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<script src="assets/js/kontakform.js"></script>
+<main>
+    <div id="nav">
+        <header>
+            <img src="assets/image/webdevlogo.jpg" alt="logo" class="iconheader">
+            <div class="logo">Website Investasi Wisata Dummy</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="profile.html">Profil Saya</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="hubungikami.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="pembungkus-form">
+        <h1 class="judulform">Halaman Form Hubungi Kami</h1>
+    <div class="form-hubungikami">
+        <form id="contactform" action="#" method="post">
+            <div class="row-form">
+                <label class="required">Nama Anda</label><br/>
+                <input id="namainput" name="name" type="text" value="" size="30"><br/>
+                <span id="namevalida"></span>
+            </div>
+            <div class="row-form">
+                <label class="required">Email Anda</label><br/>
+                <input id="emailinput" name="name" type="text" value="" size="30"><br/>
+                <span id="emailvalida"></span>
+            </div>
+            <div class="row-form">
+                <label class="required">Pesan Anda</label><br/>
+                <textarea id="message" class="input" name="message" rows="7" cols="30" ></textarea><br/>
+                <span id="messageemailvalida"></span>
+            </div>
+            <input id="submitbtn" type="submit" value="Send" onclick="myfunction()">
+            <p id="demo"></p>
+
+        </form>
+
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2020 Website Dummy Untuk Submmision</p>
+    </footer>
+</main>
+
+</body>
+</html>

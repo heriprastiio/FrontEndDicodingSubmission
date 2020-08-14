@@ -1,0 +1,220 @@
+header,
+    /*section,*/
+    /*aside,*/
+    /*    footer {*/
+    /*        margin: 0 1.5% 24px 1.5%;*/
+    /*    }*/
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    margin: 0 1.5% 24px 1.5%;
+    clear: both;
+    margin-bottom: 0;
+    /*margin-right: 20px;*/
+}
+*{
+    box-sizing: border-box;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    background-color: #00c8eb;
+    text-align: center;
+}
+.iconheader{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#nav nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+#nav nav {
+    padding: 5px;
+    /*margin-left: px;*/
+    box-sizing: border-box;
+    background-color: #00c8eb;
+}
+
+#nav nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+#nav nav ul li a {
+    margin-left: 100px;
+    /*margin-right: 100px;*/
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+#asideleftarticle{
+    float: left;
+    text-align: justify;
+    width: 50%;
+    height: 10%;
+    margin: 20px 20px;
+}
+#asideleftarticle, h1 #judulasidearticle, #alamat{
+    margin: 20px 20px;
+    text-align: center;
+}
+#about{
+    text-align: justify;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+#alamat p{
+    text-align: justify;
+}
+#newparagraph p {
+    float: bottom;
+    white-space: pre-wrap;
+    display: block;
+}
+#pelatihandiikuti {
+    margin: 20px 20px;
+    font-family: "Adobe Song Std L";
+}
+#pelatihandiikuti, ul #parent-ul, li .lispelatihan{
+    margin: 20px 20px;
+    font-size: 20px;
+
+}
+ul #parent-ul, li .lispelatihan, hr{
+    width: 35%;
+    top: 20px;
+    height: 10px;
+    background: cornflowerblue;
+    /*margin-bottom: 30px;*/
+    margin: 5px;
+    font-size: 43px;
+}
+#isipelengkapparagraph, p{
+    margin: 20px;
+    text-align: justify;
+}
+#articlefaq, #faqalorem, h1, #faqalorem{
+    text-align: center;
+    margin: 20px 20px;
+
+}
+.contentcard{
+    flex-grow: 1;
+    background-color: #FBDD1C;
+    margin: 5px;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.card{
+    flex-grow: 1;
+    margin: 20px 20px;
+    width: 20%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+.card-header{
+    text-align: center;
+    padding: 50px 10px;
+    background: linear-gradient(to right, #f2f6f6, #2bfff8);
+    color: #fff;
+}
+.card-header .judulcard{
+    color: #0d0d0d;
+}
+.card-body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.card-body p{
+    color: #1c9247;
+    text-align: justify;
+}
+
+.card-body .btninvest{
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #f2f6f6, #2bfff8);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+.card-body .imagecard{
+    height: 170px;
+    width: auto;
+    max-width: 100%;
+}
+#content-investasi{
+    margin: 12px 12px;
+    background: #00a2c6;
+    /*margin-right: 12px;*/
+    font-size: 120px;
+}
+.content-investasi .judulinvestasi{
+    margin: 20px 20px;
+    text-align: center;
+}
+.content-investasi .paragraphin{
+    margin: 20px 20px;
+    font-size: 30px;
+    font-family: "David Libre";
+}
+
+.content-body-inves{
+    margin: 20px 20px;
+}
+.label{
+    font-weight: bold;
+    font-size: 16px;
+}
+#submitbtn{
+    background-color: #B22222;
+    height: 30px;
+    width: 20%;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 20px 20px;
+}
+input, textarea{
+    background-color: #D3D3D3;
+    color: #2F4F4F;
+    width: 250px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 2px 2px #696969;
+}
+
+.form-hubungikami .row-form{
+    /*margin: 20px 20px;*/
+}
+
+.pembungkus-form,  .judulform h1{
+    text-align: center;
+    margin: 20px 20px;
+
+}
